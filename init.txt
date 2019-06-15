@@ -2,3 +2,6 @@ mongo atlas
 
 xaxtian
 12345o!
+
+Mongodb URI
+mongodb+srv://xaxtian:12345o!@cluster0-i9ebf.mongodb.net/test
