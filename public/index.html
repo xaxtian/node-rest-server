@@ -24,7 +24,7 @@
             console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
             var id_token = googleUser.getAuthResponse().id_token;
             var msg = 'idtoken=' + id_token;
-            var url = 'http://localhost:3000/google';
+            var url = window.location.origin + '/google';
             send(url, msg);
         }
 
